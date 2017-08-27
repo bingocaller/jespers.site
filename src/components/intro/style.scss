@@ -1,0 +1,17 @@
+@import '~style/variables';
+
+.intro {
+  padding: 1em 0;
+  background-color: $color-accent;
+}
+
+.headline {
+  margin: 0;
+  font-family: $font-family-display;
+  font-size: 3em;
+}
+
+.sub-headline {
+  margin: 0;
+  font-size: 2em;
+}

@@ -1,5 +1,14 @@
-.container {
-  max-width: 50em;
-  margin: 2em auto 0;
-  padding: 0 .5em;
+.content {
+  margin: 2em 0;
+}
+
+.subject-headline {
+  margin: 1em 0 .5em;
+  font-size: 1.75em;
+}
+
+.paragraph {
+  margin: 0;
+  font-size: 1.5em;
+  + .paragraph {margin-top: 1em;}
 }

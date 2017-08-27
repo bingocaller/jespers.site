@@ -3,10 +3,12 @@
 .footer {
   padding: 1em;
   text-align: center;
-  font-family: $font-family-sans;
+  font-family: $font-family-display;
   background-color: rgba(#000, .2);
 }
 
 .heart {
-  color: #f00;
+  vertical-align: sub;
+  font-size: 2em;
+  color: $color-accent;
 }
