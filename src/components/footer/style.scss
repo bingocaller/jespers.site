@@ -10,5 +10,21 @@
 .heart {
   vertical-align: sub;
   font-size: 2em;
-  color: $color-accent;
+  color: $color-theme-primary;
+}
+
+.icons-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.icon {
+  flex: 1;
+
+  svg {
+    fill: currentColor;
+    max-width: 64px;
+  }
 }
