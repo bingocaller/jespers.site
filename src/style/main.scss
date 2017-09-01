@@ -1,33 +1,12 @@
-@import 'variables';
+@import './utilities/variables';
+@import './utilities/mixins';
+@import './utilities/resets';
 
-:root {
-  font-family: $font-family-body;
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  * { box-sizing: border-box; }
-}
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  color: $color-fg;
-  background-color: $color-bg;
-}
-
-a {
-  color: $color-fg;
-
-  &:hover,
-  &:focus {
-    color: $color-theme-primary;
-  }
-}
-
-.container {
-  max-width: 50em;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 1em;
-}
+@import './components/container';
+@import './components/content';
+@import './components/footer';
+@import './components/heart';
+@import './components/icons-row';
+@import './components/intro';
+@import './components/paragraph';
+@import './components/subject-headline';

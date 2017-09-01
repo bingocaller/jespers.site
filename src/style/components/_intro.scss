@@ -1,22 +1,20 @@
-@import '~style/variables';
-
 .intro {
   padding: 1.5em 0;
   background-color: $color-theme-primary;
 }
 
-.headline,
-.sub-headline {
+.intro__headline,
+.intro__sub-headline {
   margin: 0;
   line-height: 1;
 }
 
-.headline {
-  font-family: $font-family-display;
+.intro__headline {
+  @include squeezed-monospace-text;
   font-size: 3em;
 }
 
-.sub-headline {
+.intro__sub-headline {
   margin-top: .5em;
   font-size: 2em;
 }
