@@ -1,0 +1,8 @@
+a {
+  color: $color-fg;
+
+  &:hover,
+  &:focus {
+    color: $color-theme-primary;
+  }
+}

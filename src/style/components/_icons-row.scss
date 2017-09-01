@@ -7,9 +7,10 @@
 
 .icons-row__icon {
   flex: 1;
+  max-width: 70px;
 
   svg {
     fill: currentColor;
-    max-width: 64px;
+    width: 80%;
   }
 }
