@@ -1,10 +1,12 @@
-// $color-theme-primary: #3498db;
-$color-theme-primary: #f08a5d;
-// $color-theme-primary: #00adb5;
-// $color-theme-primary: #f38181;
+// $color-primary: #3498db;
+$color-primary: #f08a5d;
+// $color-primary: #00adb5;
+// $color-primary: #f38181;
 
-$color-bg: mix(#000, $color-theme-primary, 70%);
-$color-fg: mix(#fff, $color-theme-primary, 85%);
+$color-primary-shade: mix(#000, $color-primary, 70%);
+$color-primary-tint: mix(#fff, $color-primary, 85%);
 
 $font-family-body: Spectral, 'PT Serif', serif;
 $font-family-mono: 'Overpass Mono', 'PT Mono', 'Roboto Mono', monospace;
+
+$breakpoint-smallest: 500px;
