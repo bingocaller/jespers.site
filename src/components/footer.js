@@ -2,7 +2,7 @@ import { GithubIcon, TwitterIcon, EmailIcon } from './svg-icons';
 
 const Footer = () => (
   <footer className="footer">
-    <span className="heart">❤</span>, Jesper
+    Let’s keep in touch!
     <div className="container">
       <div className="icons-row">
         <a className="icons-row__icon" title="Link to my Github profile" href="//github.com/bingocaller"><GithubIcon /></a>
