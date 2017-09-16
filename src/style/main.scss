@@ -22,12 +22,13 @@ html,
 body {
   padding: 0;
   margin: 0;
-  color: $color-fg;
-  background-color: $color-bg;
+  color: $color-primary-tint;
+  background-color: $color-primary-shade;
 }
 
-code,
-pre,
-kbd {
-  font-family: $font-family-mono;
+code {
+  @include squeezed-monospace-text;
+  background-color: rgba(#000, .2);
+  padding: .125em;
+  border-radius: .125em;
 }
