@@ -1,8 +1,13 @@
+import { JespersMug } from './svg-icons';
+
 const Intro = () => (
   <div className="intro">
-    <div className="container">
-      <h1 className="intro__headline">Hi there!</h1>
-      <h2 className="intro__sub-headline"><em>Something more</em></h2>
+    <div className="intro__items">
+      <JespersMug className="intro__icon" />
+      <div className="intro__headlines">
+        <h1 className="intro__headline">Hi there!</h1>
+        <h2 className="intro__sub-headline">Welcome to my site</h2>
+      </div>
     </div>
   </div>
 );
