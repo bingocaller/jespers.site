@@ -1,11 +1,10 @@
 {
-  "name": "Preact PWA",
-  "short_name": "Preact PWA",
+  "name": "Jesper Nellemann Jakobsen's site",
+  "short_name": "Jesper's site",
   "start_url": "/",
   "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#fff",
-  "theme_color": "#673ab8",
+  "background_color": "#48291b",
+  "theme_color": "#f08a5d",
   "icons": [{
     "src": "/assets/icons/android-chrome-192x192.png",
     "type": "image/png",
