@@ -1,7 +1,7 @@
 import { JespersMug } from './svg-icons';
 
 const Intro = () => (
-  <div className="intro">
+  <header className="intro">
     <div className="intro__items">
       <JespersMug className="intro__icon" />
       <div className="intro__headlines">
@@ -9,7 +9,7 @@ const Intro = () => (
         <h2 className="intro__sub-headline">Welcome to my site</h2>
       </div>
     </div>
-  </div>
+  </header>
 );
 
 export default Intro;

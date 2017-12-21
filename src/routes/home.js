@@ -6,9 +6,9 @@ const md = require('markdown-it')({
 const content = require('../data/text.md');
 
 const Home = () => (
-  <div className="content">
+  <section className="content">
     <div className="container" dangerouslySetInnerHTML={{ __html: md.render(content) }} />
-  </div>
+  </section>
 );
 
 export default Home;
