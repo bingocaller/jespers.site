@@ -8,7 +8,7 @@ const App = () => (
   <div id="app" className="app">
     <Helmet
       link={[
-        { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Overpass+Mono:700|Spectral:400,700' },
+        { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Overpass+Mono:400,700|Spectral:400,700' },
       ]}
     />
     <Intro />
