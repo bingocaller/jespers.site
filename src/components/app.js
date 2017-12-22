@@ -1,3 +1,4 @@
+import Helmet from 'preact-helmet';
 import Intro from './intro';
 import Footer from './footer';
 import Home from '../routes/home';
@@ -5,6 +6,11 @@ import Home from '../routes/home';
 
 const App = () => (
   <div id="app" className="app">
+    <Helmet
+      link={[
+        { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Overpass+Mono:700|Spectral:400,700' },
+      ]}
+    />
     <Intro />
     <Home path="/" />
     <Footer />
