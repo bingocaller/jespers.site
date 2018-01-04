@@ -18,9 +18,9 @@ Needless to say, I learned a lot and I wouldn't be where I am today, had it not 
 I love open source software.  
 Not only is it amazing to have access to so much high quality software; open source projects are also a great source of inspiration. To see how other people write their code and how they have solved common (and not so common) problems is priceless to me. {paragraph}
 
-That's why I try to put as much of my own work out there as I possibly can. It makes me want to try harder and do better. Who knows? Maybe one day my code can inspire someone else. {paragraph}
+That's why I try to put as much of my own stuff out there as I possibly can. It makes me want to try harder and do better. Who knows? Maybe one day my code can inspire someone else. {paragraph}
 
-I try to contribute wherever I can, whenever I have the time. So far, I've made some minor contributions to projects like [Vimium](//github.com/philc/vimium), [KE-complex_modifications](//github.com/pqrs-org/KE-complex_modifications), and [convert-bootstrap-2-to-3](//github.com/natecavanaugh/convert-bootstrap-2-to-3). {paragraph}
+I try to contribute wherever I can, whenever I have the time. So far, I've made some minor contributions to projects like [Vimium](//github.com/philc/vimium), [KE-complex_modifications](//github.com/pqrs-org/KE-complex_modifications), and [convert-bootstrap-2-to-3](//github.com/natecavanaugh/convert-bootstrap-2-to-3). I'd like to do more, though; it's a matter of finding, and/or prioritising the time. {paragraph}
 
 Here are a few of my own projects: {paragraph}
 
