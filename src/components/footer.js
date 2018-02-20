@@ -5,13 +5,25 @@ const Footer = () => (
     Hit me up!
     <div className="container">
       <div className="icons-row">
-        <a className="icons-row__icon" title="Link to my Github profile" href="//github.com/bingocaller">
+        <a
+          className="icons-row__icon"
+          title="Link to my Github profile"
+          href="//github.com/bingocaller"
+        >
           <GithubIcon />
         </a>
-        <a className="icons-row__icon" title="Link to my Twitter profile" href="//twitter.com/bingocallr">
+        <a
+          className="icons-row__icon"
+          title="Link to my Twitter profile"
+          href="//twitter.com/bingocallr"
+        >
           <TwitterIcon />
         </a>
-        <a className="icons-row__icon" title="Send me an email" href="mailto:jesper.nellemann@gmail.com">
+        <a
+          className="icons-row__icon"
+          title="Send me an email"
+          href="mailto:jesper.nellemann@gmail.com"
+        >
           <EmailIcon />
         </a>
       </div>

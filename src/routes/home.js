@@ -7,7 +7,10 @@ const content = require('../data/text.md');
 
 const Home = () => (
   <section className="content">
-    <div className="container" dangerouslySetInnerHTML={{ __html: md.render(content) }} />
+    <div
+      className="container"
+      dangerouslySetInnerHTML={{ __html: md.render(content) }}
+    />
   </section>
 );
 
