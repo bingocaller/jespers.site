@@ -1,5 +1,5 @@
 {
-  "extends": "/Users/jesper_jakobsen/.eslintrc.json",
+  "extends": "/Users/jesper_jakobsen/.eslintrc",
   "rules": {
     "react/jsx-filename-extension": 0,
     "react/prop-types": 0,
