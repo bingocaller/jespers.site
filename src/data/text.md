@@ -39,6 +39,7 @@ A (Progressive) Web App, which can help keep track of character stats when playi
 * Relative units
 * Javascript
 * React/Preact
+* React Native
 * Animation
 * SVG
 * Git (esp. using [`scm_breeze`](//github.com/scmbreeze/scm_breeze))
