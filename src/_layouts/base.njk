@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="{{ renderData.description or description or metadata.description }}">
+    <title>{{ renderData.title or title or metadata.title }}</title>
+    <title>Eleventy test</title>
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,600&family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- capture the CSS content as a Nunjucks variable -->
+    {% set css %}
+      {% include 'styles/_utopia.css' %}
+      {% include 'styles/main.css' %}
+    {% endset %}
+    <!-- feed it through our cssmin filter to minify -->
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
+  </head>
+  <body itemscope itemtype="https://schema.org/WebPage">
+    {% include 'partials/_header.html' %}
+    <main class="container">
+      {{ content | safe }}
+    </main>
+    {% include 'partials/_footer.html' %}
+    {% include 'partials/_init_service-worker.html' %}
+  </body>
+</html>

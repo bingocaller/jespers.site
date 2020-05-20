@@ -1,0 +1,20 @@
+{
+  "name": "Jesper Nellemann Jakobsen's site",
+  "short_name": "jespers.site",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#216c7d",
+  "theme_color": "#e1f1da",
+  "icons": [
+    {
+      "src": "/assets/icons/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/icons/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
