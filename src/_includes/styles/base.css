@@ -1,0 +1,36 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+p {
+  margin: 1em 0;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  padding-left: 1.5em;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 0.125em;
+  transition: text-decoration-color 0.5s;
+}
+a:focus {
+  outline: 1px dotted currentColor;
+}

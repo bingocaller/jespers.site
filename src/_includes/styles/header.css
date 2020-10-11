@@ -1,0 +1,27 @@
+.header {
+  margin-bottom: 2em;
+  padding: 1em 0;
+}
+
+.header h1,
+.header h2 {
+  margin: 0;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.intro__icon {
+  display: block;
+  box-sizing: content-box;
+  flex: 1 0 2.5em;
+  max-width: 3em;
+  padding: 1em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-end: 1em;
+  border-radius: 50%;
+}

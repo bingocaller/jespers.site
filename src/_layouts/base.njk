@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="{{ renderData.description or description or metadata.description }}">
     <title>{{ renderData.title or title or metadata.title }}</title>
-    <title>Eleventy test</title>
     <link rel="manifest" href="/manifest.webmanifest">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,600&family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <!-- capture the CSS content as a Nunjucks variable -->
     {% set css %}
-      {% include 'styles/_utopia.css' %}
-      {% include 'styles/main.css' %}
+      {% include 'styles/base.css' %}
+      {% include 'styles/typography.css' %}
+      {% include 'styles/theme.njk' %}
+      {% include 'styles/header.css' %}
+      {% include 'styles/container.css' %}
+      {% include 'styles/footer.css' %}
     {% endset %}
-    <!-- feed it through our cssmin filter to minify -->
     <style>
       {{ css | cssmin | safe }}
     </style>
