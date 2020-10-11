@@ -1,7 +1,7 @@
 {
   "name": "jespers.site",
   "version": "2.0.0",
-  "description": "",
+  "description": "The personal website of Jesper Nellemann Jakobsen",
   "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
@@ -14,6 +14,14 @@
     "start": "eleventy --serve"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Jesper Nellemann Jakobsen",
+    "email": "jesper.nellemann@gmail.com",
+    "url": "https://jespers.site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bingocaller/jespers.site.git"
+  },
   "license": "MIT"
 }
