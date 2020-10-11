@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Jesper Nellemann Jakobsens's site
+title: Jesper Nellemann Jakobsen's site
 description: The personal website of Jesper Nellemann Jakobsen
 ---
 
@@ -57,7 +57,7 @@ In no particular order:
 - [11ty](https://11ty.dev)
 - React/Preact
 - Git (esp. using [`scm_breeze`](https://github.com/scmbreeze/scm_breeze))
-- Vim
+- (Neo)Vim
 
 ### Ask me about
 
