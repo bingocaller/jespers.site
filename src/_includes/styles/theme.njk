@@ -1,0 +1,41 @@
+:root {
+  --color-background: {{ tokens.colorBananaMania }};
+  --color-background-dark: {{ tokens.colorBananaManiaDarkAlpha }};
+
+  --color-foreground: {{ tokens.colorCherryPie }};
+  --color-foreground-alpha: {{ tokens.colorCherryPieAlpha }};
+}
+
+html,
+body,
+.intro__icon {
+  color: var(--color-foreground);
+  background-color: var(--color-background);
+}
+
+.section {
+  background-color: var(--color-background-dark);
+}
+
+a {
+  text-decoration-color: var(--color-foreground-alpha);
+}
+a:hover,
+a:focus {
+  text-decoration-color: var(--color-foreground);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: {{ tokens.colorElm }};
+    --color-background-dark: {{ tokens.colorBlackAlpha }};
+
+    --color-foreground: {{ tokens.colorPeppermint }};
+    --color-foreground-alpha: {{ tokens.colorPeppermintAlpha }};
+  }
+
+  .intro__icon {
+    color: var(--color-background);
+    background-color: var(--color-foreground);
+  }
+}
