@@ -4,9 +4,9 @@
   "description": "The personal website of Jesper Nellemann Jakobsen",
   "dependencies": {},
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy": "^0.11.1",
     "clean-css": "^4.2.3",
-    "marked": "^1.2.0",
+    "marked": "^1.2.5",
     "workbox-cli": "^5.1.4"
   },
   "scripts": {
