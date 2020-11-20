@@ -53,7 +53,7 @@ In no particular order:
 - Design systems
 - Javascript
 - [Svelte](https://svelte.dev)
-- [11ty](https://11ty.dev)
+- [Eleventy](https://11ty.dev)
 - React/Preact
 - Git (esp. using [`scm_breeze`](https://github.com/scmbreeze/scm_breeze))
 - (Neo)Vim
