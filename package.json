@@ -10,6 +10,7 @@
   },
   "scripts": {
     "build": "eleventy && workbox generateSW workbox-config.js",
+    "clean": "rm -r dist",
     "start": "eleventy --serve"
   },
   "keywords": [],
