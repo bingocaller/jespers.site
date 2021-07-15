@@ -9,7 +9,8 @@
     "workbox-cli": "^6.1.5"
   },
   "scripts": {
-    "build": "rm -r dist && eleventy && workbox generateSW workbox-config.js",
+    "build": "eleventy && workbox generateSW workbox-config.js",
+    "clean": "rm -r dist",
     "start": "eleventy --serve"
   },
   "keywords": [],
