@@ -169,8 +169,7 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: "IBM Plex Mono", "PT Mono", "Roboto Mono", monospace;
   font-weight: 600;
   font-style: italic;
@@ -186,6 +185,21 @@ h2 {
 
 h3 {
   font-size: var(--step-2);
+}
+
+main h2,
+main h3 {
+  margin-block: 1.5em 0.5em;
+}
+
+main h2 + p,
+main h3 + p {
+  margin: 0;
+}
+
+p,
+li {
+  line-height: 1.75;
 }
 
 code {
