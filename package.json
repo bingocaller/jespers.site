@@ -4,9 +4,9 @@
   "description": "The personal website of Jesper Nellemann Jakobsen",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-canary.30",
-    "clean-css": "^5.1.3",
-    "marked": "^4.0.10",
-    "workbox-cli": "^6.1.5"
+    "clean-css": "^5.3.1",
+    "marked": "^4.2.12",
+    "workbox-cli": "^6.5.4"
   },
   "scripts": {
     "build": "eleventy && workbox generateSW workbox-config.js",
