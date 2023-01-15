@@ -3,8 +3,7 @@
   padding: 1em 0;
 }
 
-.header h1,
-.header h2 {
+.header h1 {
   margin: 0;
 }
 
@@ -24,4 +23,8 @@
   margin-block-end: 1em;
   margin-inline-end: 1em;
   border-radius: 50%;
+}
+
+.intro__sub-title {
+  font-size: var(--step-3); /* Same as h2 */
 }
