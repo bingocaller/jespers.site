@@ -3,4 +3,3 @@ module.exports = {
   globPatterns: ["**/*.{html,css,png,ico}"],
   swDest: "dist/sw.js",
 };
-

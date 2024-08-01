@@ -1,15 +1,16 @@
 {
   "name": "jespers.site",
-  "version": "2.0.0",
+  "version": "2.1.0",
+  "type": "module",
   "description": "The personal website of Jesper Nellemann Jakobsen",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.30",
+    "@11ty/eleventy": "3.0.0-beta.1",
     "clean-css": "^5.3.1",
     "marked": "^4.2.12",
-    "workbox-cli": "^6.5.4"
+    "workbox-cli": "^7.1.0"
   },
   "scripts": {
-    "build": "eleventy && workbox generateSW workbox-config.js",
+    "build": "eleventy && workbox generateSW workbox-config.cjs",
     "clean": "rm -r dist",
     "start": "eleventy --serve"
   },
