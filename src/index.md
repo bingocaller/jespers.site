@@ -79,6 +79,7 @@ Here are some things I like working with and/or using, in no particular order:
 - HTML
 - CSS/Sass
 - JavaScript/TypeScript
+- Web Components
 - SVG
 - Design systems
 - Animation
